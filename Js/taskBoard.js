@@ -221,7 +221,7 @@ logoutBtn.addEventListener('click', function () {
     sessionStorage.removeItem('authToken');  // Caso use sessionStorage
 
     // Redirecionar para a página de login (substitua pelo URL de sua página de login)
-    window.location.href = '/login.html';  // Redireciona para a página de login
+    window.location.href = 'index.html';  // Redireciona para a página de login
 });
 
 
